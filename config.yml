@@ -78,8 +78,6 @@ params:
     Content: Show you memories hidden deep inside.
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
