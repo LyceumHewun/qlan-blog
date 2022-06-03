@@ -3,7 +3,7 @@ title: 花发故年枝
 copyright: QLAN.CC
 paginate: 5
 theme: PaperMod
-language: zh
+defaultContentLanguage: zh
 
 enableRobotsTXT: true
 buildDrafts: false
