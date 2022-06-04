@@ -3,10 +3,10 @@ title: 花发故年枝 - qlan's blog
 copyright: QLAN.CC
 paginate: 5
 theme: PaperMod
-defaultContentLanguage: zh
+defaultContentLanguage: en
 
 enableRobotsTXT: true
-buildDrafts: false
+buildDrafts: true
 buildFuture: false
 buildExpired: false
 
@@ -56,21 +56,6 @@ params:
     text: "花发故年枝"
     icon: /apple-touch-icon.png
     iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
 
   # home-info mode
   homeInfoParams:
@@ -140,11 +125,11 @@ menu:
       weight: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+pygmentsUseClasses: true
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: github
