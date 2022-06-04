@@ -1,5 +1,5 @@
 ---
-title: "Git全局设置"
+title: "Git 全局设置"
 date: 2022-06-04T16:25:38+08:00
 tags: []
 categories: []

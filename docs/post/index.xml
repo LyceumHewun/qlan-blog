@@ -10,9 +10,19 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>QLAN.CC</copyright>
-    <lastBuildDate>Sat, 04 Jun 2022 16:25:38 +0800</lastBuildDate><atom:link href="https://qlan.cc/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jun 2022 18:25:11 +0800</lastBuildDate><atom:link href="https://qlan.cc/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git全局设置</title>
+      <title>Seata 部署指南</title>
+      <link>https://qlan.cc/post/seata%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Sat, 04 Jun 2022 18:25:11 +0800</pubDate>
+      
+      <guid>https://qlan.cc/post/seata%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/</guid>
+      <description>环境 Docker - 1.13.1 docker-compose - 1.23.2 seata-server - 1.4.2 Nacos - 2.0.4 步骤 新建seata目录 1 2 mkdir /opt/seata mkdir /opt/seata/config 新建seata服务端配置文件registry.conf 1 vi /opt/seata/config/registry.conf 编写以下配置
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 registry { type = &amp;#34;nacos&amp;#34; nacos { # 服务名称 application = &amp;#34;seata-server&amp;#34; serverAddr = &amp;#34;127.0.0.1:18848&amp;#34; # 命名空间ID namespace = &amp;#34;&amp;#34; group = &amp;#34;SEATA_GROUP&amp;#34; # 集群名称 cluster = &amp;#34;default&amp;#34; } } config { type = &amp;#34;nacos&amp;#34; nacos { serverAddr = &amp;#34;127.</description>
+    </item>
+    
+    <item>
+      <title>Git 全局设置</title>
       <link>https://qlan.cc/post/git%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE/</link>
       <pubDate>Sat, 04 Jun 2022 16:25:38 +0800</pubDate>
       
