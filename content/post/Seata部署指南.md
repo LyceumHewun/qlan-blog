@@ -2,7 +2,7 @@
 title: "Seata 部署指南"
 date: 2022-06-04T18:25:11+08:00
 tags: []
-categories: []
+categories: ["Spring Cloud Alibaba"]
 author: "谦兰君"
 draft: true
 description: ""
