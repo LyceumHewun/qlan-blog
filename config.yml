@@ -1,5 +1,5 @@
 baseURL: "https://qlan.cc/"
-title: 花发故年枝
+title: 花发故年枝 - qlan's blog
 copyright: QLAN.CC
 paginate: 5
 theme: PaperMod
@@ -14,7 +14,7 @@ googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
-  minifyOutput: false
+  minifyOutput: true
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -78,12 +78,14 @@ params:
     Content: Show you memories hidden deep inside.
 
   socialIcons:
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
-    - name: bilibili
-      url: "https://bilibili.com/"
+      url: "https://github.com/LyceumHewun"
+    - name: instagram
+      url: "https://www.instagram.com/lyceum_hewun/"
+    - name: spotify
+      url: "https://open.spotify.com/user/67aicx9ykcgvgwi2h3leamwon"
+    - name: rss
+      url: "/index.xml"
 
   analytics:
     google:
@@ -120,18 +122,22 @@ outputs:
         - JSON # is necessary
 menu:
   main:
-    - identifier: search
-      name: search
-      url: /search/
+    - identifier: archive
+      name: Archive
+      url: /archives/
       weight: 5
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
