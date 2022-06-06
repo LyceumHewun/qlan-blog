@@ -41,15 +41,15 @@ weight: 100
 
 ## 变量
 
-- $username 表示开发者
-- $issue_id 表示issues的id
-- $description 表示分支功能描述亦或issues的标题
+- **$username** 表示开发者
+- **$issue_id** 表示issues的id
+- **$description** 表示分支功能描述亦或issues的标题
 
 
 
 ## 参考文献
 
-\- [1] [科比08. Git分支命名规范(2017-06-05)2022-06-06. ](https://www.cnblogs.com/kobe1991/p/6944747.html)
+[1] 科比08. Git分支命名规范(2017-06-05)\[2022-06-06]. https://www.cnblogs.com/kobe1991/p/6944747.html
 
-\- [2] [josephlin. Git分支命名约定(2019-12-11)2022-06-06.](http://josephlin.org/git-styleguide.html)
+[2] josephlin. Git分支命名约定(2019-12-11)\[2022-06-06]. http://josephlin.org/git-styleguide.html
 
