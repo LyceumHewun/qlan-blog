@@ -1,5 +1,5 @@
 ---
-title: "Git分支命名约定"
+title: "Git 分支命名约定"
 date: 2022-06-06T14:47:16+08:00
 tags: []
 categories: []
