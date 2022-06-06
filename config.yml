@@ -69,8 +69,6 @@ params:
       url: "https://www.instagram.com/lyceum_hewun/"
     - name: spotify
       url: "https://open.spotify.com/user/67aicx9ykcgvgwi2h3leamwon"
-    - name: rss
-      url: "/index.xml"
 
   analytics:
     google:
@@ -133,3 +131,7 @@ markup:
     guessSyntax: true
     lineNos: true
     style: github
+    tabWidth: 4
+  goldmark:
+    renderer:
+      unsafe: true

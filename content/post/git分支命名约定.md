@@ -1,7 +1,7 @@
 ---
 title: "Git 分支命名约定"
 date: 2022-06-06T14:47:16+08:00
-tags: []
+tags: ["编码规范"]
 categories: []
 author: "谦兰君"
 draft: false
@@ -41,15 +41,16 @@ weight: 100
 
 ## 变量
 
-- **$username** 表示开发者
-- **$issue_id** 表示issues的id
-- **$description** 表示分支功能描述亦或issues的标题
+- **$version** 版本号
+- **$username** 开发者
+- **$issue_id** issues的id
+- **$description** 分支功能描述亦或issues的标题
 
 
 
 ## 参考文献
 
-[1] 科比08. Git分支命名规范(2017-06-05)\[2022-06-06]. https://www.cnblogs.com/kobe1991/p/6944747.html
+<nobr>*[1] 科比08. Git分支命名规范(2017-06-05)\[2022-06-06]. https://www.cnblogs.com/kobe1991/p/6944747.html*</nobr>
 
-[2] josephlin. Git分支命名约定(2019-12-11)\[2022-06-06]. http://josephlin.org/git-styleguide.html
+<nobr>*[2] josephlin. Git分支命名约定(2019-12-11)\[2022-06-06]. http://josephlin.org/git-styleguide.html*<nobr>
 
