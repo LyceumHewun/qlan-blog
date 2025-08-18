@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>花发故年枝 - qlan&#39;s blog</title>
+    <link>https://qlan.cc/</link>
+    <description>Recent content on 花发故年枝 - qlan&#39;s blog</description>
+    <image>
+      <title>花发故年枝 - qlan&#39;s blog</title>
+      <url>https://qlan.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://qlan.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en</language>
+    <copyright>QLAN.CC</copyright>
+    <lastBuildDate>Mon, 06 Jun 2022 14:47:16 +0800</lastBuildDate>
+    <atom:link href="https://qlan.cc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git 分支命名约定</title>
+      <link>https://qlan.cc/post/git%E5%88%86%E6%94%AF%E5%91%BD%E5%90%8D%E7%BA%A6%E5%AE%9A/</link>
+      <pubDate>Mon, 06 Jun 2022 14:47:16 +0800</pubDate>
+      <guid>https://qlan.cc/post/git%E5%88%86%E6%94%AF%E5%91%BD%E5%90%8D%E7%BA%A6%E5%AE%9A/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Git&lt;/strong&gt; 分支分为集成分支、功能分支和修复分支，分别命名为 &lt;em&gt;develop&lt;/em&gt;、&lt;em&gt;feature&lt;/em&gt; 和 &lt;em&gt;hotfix&lt;/em&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;1master-分支&#34;&gt;（1）&lt;em&gt;master&lt;/em&gt; 分支&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;master&lt;/em&gt; 为主分支，也是用于部署生产环境的分支。为了确保&lt;em&gt;master&lt;/em&gt;分支稳定性，一般由&lt;em&gt;develop&lt;/em&gt;、&lt;em&gt;hotfix&lt;/em&gt;分支合并，任何时间都不能直接修改代码。&lt;/p&gt;
+&lt;h3 id=&#34;2develop-分支&#34;&gt;（2）&lt;em&gt;develop&lt;/em&gt; 分支&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;develop&lt;/em&gt;为开发分支，始终保持最新完成以及bug修复后的代码。一般开发新功能时，都是基于&lt;em&gt;develop&lt;/em&gt;分支创建&lt;em&gt;feature&lt;/em&gt;分支的。&lt;/p&gt;
+&lt;h3 id=&#34;3feature-分支&#34;&gt;（3）&lt;em&gt;feature&lt;/em&gt; 分支&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;feature&lt;/em&gt;为功能分支，分为&lt;strong&gt;版本功能分支&lt;/strong&gt;和&lt;strong&gt;非版本功能分支&lt;/strong&gt;。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;版本功能&lt;/strong&gt;分支是根据版本需求分出来的功能分支，这时候命名为：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;feature/{$version}/{$issue_id}_{$description}&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;非版本功能分支则是指不跟版本一起上线的功能或者一些不紧急的 bugs，这时候命名为：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;feature/{$username}/{$issue_id}_{$description}&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;4hotfix-分支&#34;&gt;（4）&lt;em&gt;hotfix&lt;/em&gt; 分支&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;hotfix&lt;/em&gt;为修复分支，表示修复紧急线上&lt;em&gt;&lt;strong&gt;BUG&lt;/strong&gt;&lt;/em&gt;的分支（不紧急的&lt;em&gt;&lt;strong&gt;BUG&lt;/strong&gt;&lt;/em&gt;归为功能分支），命名为：&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;hotfix/{$username}/{$issue_id}_{$description}&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;变量&#34;&gt;变量&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;$version&lt;/strong&gt; 版本号&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$username&lt;/strong&gt; 开发者&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$issue_id&lt;/strong&gt; issues的id&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$description&lt;/strong&gt; 分支功能描述亦或issues的标题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考文献&#34;&gt;参考文献&lt;/h2&gt;
+&lt;p&gt;&lt;nobr&gt;&lt;em&gt;[1] 科比08. Git分支命名规范(2017-06-05)[2022-06-06]. &lt;a href=&#34;https://www.cnblogs.com/kobe1991/p/6944747.html&#34;&gt;https://www.cnblogs.com/kobe1991/p/6944747.html&lt;/a&gt;&lt;/em&gt;&lt;/nobr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;nobr&gt;&lt;em&gt;[2] josephlin. Git分支命名约定(2019-12-11)[2022-06-06]. &lt;a href=&#34;http://josephlin.org/git-styleguide.html&#34;&gt;http://josephlin.org/git-styleguide.html&lt;/a&gt;&lt;/em&gt;&lt;nobr&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Git 全局设置</title>
+      <link>https://qlan.cc/post/git%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Sat, 04 Jun 2022 16:25:38 +0800</pubDate>
+      <guid>https://qlan.cc/post/git%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE/</guid>
+      <description>&lt;h3 id=&#34;查看全局设置&#34;&gt;查看全局设置&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;设置全局用户名邮箱&#34;&gt;设置全局用户名/邮箱&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;username&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.email &lt;span class=&#34;s2&#34;&gt;&amp;#34;user@email&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;设置全局代理&#34;&gt;设置全局代理&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global http.proxy http://127.0.0.1:7890
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global https.proxy https://127.0.0.1:7890
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 取消代理&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global --unset http.proxy
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global --unset https.proxy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
