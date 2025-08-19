@@ -113,29 +113,19 @@ git config user.email "user@email"
 
 ### 全局设置
 
-查看全局设置
-
 ```sh
+# 查看全局设置
 git config --global -l
-```
 
-设置全局用户名/邮箱
-
-```sh
+# 设置全局用户名/邮箱
 git config --global user.name "username"
 git config --global user.email "user@email"
-```
 
-设置全局代理
-
-```sh
+# 设置全局代理
 git config --global http.proxy http://127.0.0.1:7890
 git config --global https.proxy https://127.0.0.1:7890
-```
 
-取消代理
-
-```sh
+# 取消全局代理
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
