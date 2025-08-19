@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://qlan.cc/post/git%E5%88%86%E6%94%AF%E5%91%BD%E5%90%8D%E7%BA%A6%E5%AE%9A/</loc>
-    <lastmod>2022-06-06T14:47:16+08:00</lastmod>
-  </url><url>
-    <loc>https://qlan.cc/post/seata%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2022-06-04T18:25:11+08:00</lastmod>
-  </url><url>
     <loc>https://qlan.cc/post/git%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE/</loc>
     <lastmod>2022-06-04T16:25:38+08:00</lastmod>
   </url><url>
+    <loc>https://qlan.cc/categories/</loc>
+    <lastmod>2022-06-04T16:25:38+08:00</lastmod>
+  </url><url>
+    <loc>https://qlan.cc/tags/git/</loc>
+    <lastmod>2022-06-04T16:25:38+08:00</lastmod>
+  </url><url>
     <loc>https://qlan.cc/post/</loc>
-    <lastmod>2022-06-06T14:47:16+08:00</lastmod>
+    <lastmod>2022-06-04T16:25:38+08:00</lastmod>
   </url><url>
     <loc>https://qlan.cc/tags/</loc>
-    <lastmod>2022-06-06T14:47:16+08:00</lastmod>
+    <lastmod>2022-06-04T16:25:38+08:00</lastmod>
   </url><url>
-    <loc>https://qlan.cc/tags/%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83/</loc>
-    <lastmod>2022-06-06T14:47:16+08:00</lastmod>
+    <loc>https://qlan.cc/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2022-06-04T16:25:38+08:00</lastmod>
+  </url><url>
+    <loc>https://qlan.cc/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-06-04T16:25:38+08:00</lastmod>
+  </url><url>
+    <loc>https://qlan.cc/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/</loc>
+    <lastmod>2022-06-04T16:25:38+08:00</lastmod>
   </url><url>
     <loc>https://qlan.cc/</loc>
-    <lastmod>2022-06-06T14:47:16+08:00</lastmod>
-  </url><url>
-    <loc>https://qlan.cc/categories/</loc>
-    <lastmod>2022-06-04T18:25:11+08:00</lastmod>
-  </url><url>
-    <loc>https://qlan.cc/categories/spring-cloud-alibaba/</loc>
-    <lastmod>2022-06-04T18:25:11+08:00</lastmod>
+    <lastmod>2022-06-04T16:25:38+08:00</lastmod>
   </url><url>
     <loc>https://qlan.cc/archives/</loc>
   </url><url>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on 花发故年枝 - qlan&#39;s blog</title>
-    <link>https://qlan.cc/categories/</link>
-    <description>Recent content in Categories on 花发故年枝 - qlan&#39;s blog</description>
+    <title>Git on 花发故年枝 - qlan&#39;s blog</title>
+    <link>https://qlan.cc/tags/git/</link>
+    <description>Recent content in Git on 花发故年枝 - qlan&#39;s blog</description>
     <image>
       <title>花发故年枝 - qlan&#39;s blog</title>
       <url>https://qlan.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -13,13 +13,13 @@
     <language>en</language>
     <copyright>QLAN.CC</copyright>
     <lastBuildDate>Sat, 04 Jun 2022 16:25:38 +0800</lastBuildDate>
-    <atom:link href="https://qlan.cc/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qlan.cc/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>技术笔记</title>
-      <link>https://qlan.cc/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/</link>
+      <title>Git 笔记</title>
+      <link>https://qlan.cc/post/git%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE/</link>
       <pubDate>Sat, 04 Jun 2022 16:25:38 +0800</pubDate>
-      <guid>https://qlan.cc/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/</guid>
-      <description></description>
+      <guid>https://qlan.cc/post/git%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE/</guid>
+      <description>本文详细介绍了 Git 的全局设置方法，并整理了常用的 Git 命令，包括基础操作、分支管理、远程仓库操作等。</description>
     </item>
   </channel>
 </rss>
