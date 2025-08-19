@@ -12,7 +12,7 @@ weight: 100
 ### 常用 Git 命令
 
 #### 1. 基础操作
-```sh
+```bash
 # 初始化仓库
 git init
 
@@ -34,7 +34,7 @@ git log
 ```
 
 #### 2. 分支操作
-```sh
+```bash
 # 查看所有分支
 git branch -a
 
@@ -55,7 +55,7 @@ git branch -d <branch-name>
 ```
 
 #### 3. 远程仓库操作
-```sh
+```bash
 # 查看远程仓库
 git remote -v
 
@@ -73,7 +73,7 @@ git fetch origin
 ```
 
 #### 4. 撤销操作
-```sh
+```bash
 # 撤销工作区文件修改
 git checkout -- <file>
 
@@ -86,7 +86,7 @@ git reset --hard HEAD~1   # 完全撤销，不可恢复
 ```
 
 #### 5. 标签操作
-```sh
+```bash
 # 查看标签
 git tag
 
@@ -102,7 +102,7 @@ git push origin --tags  # 推送所有标签
 ```
 
 #### 6. 配置操作
-```sh
+```bash
 # 查看当前配置
 git config --list
 
@@ -113,7 +113,7 @@ git config user.email "user@email"
 
 ### 全局设置
 
-```sh
+```bash
 # 查看全局设置
 git config --global -l
 
