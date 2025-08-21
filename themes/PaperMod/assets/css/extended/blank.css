@@ -4,16 +4,6 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
 
-/* Read: https://github.com/adityatelange/hugo-PaperMod/issues/1386#issuecomment-1894576790 */
-.post-content pre code , 
-.post-content .highlight:not(table) ,
-.post-content .highlight table
- {
-    background: unset !important;
-    background-color: var(--code-bg) !important; /* support light/dark */
-    color: var(--secondary) !important; /* support light/dark */
-}
-
 /* https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma */
 .chroma {
   background-color: unset;
