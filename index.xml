@@ -16,9 +16,9 @@
     <atom:link href="https://qlan.cc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git 笔记</title>
-      <link>https://qlan.cc/post/git%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE/</link>
+      <link>https://qlan.cc/post/git-note/</link>
       <pubDate>Sat, 04 Jun 2022 16:25:38 +0800</pubDate>
-      <guid>https://qlan.cc/post/git%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE/</guid>
+      <guid>https://qlan.cc/post/git-note/</guid>
       <description>本文详细介绍了 Git 的全局设置方法，并整理了常用的 Git 命令，包括基础操作、分支管理、远程仓库操作等。</description>
     </item>
   </channel>
