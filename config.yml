@@ -123,6 +123,7 @@ menu:
       url: /search/
       weight: 30
 
+pygmentsUseClasses: false # https://github.com/adityatelange/hugo-PaperMod/issues/1241#issuecomment-1620584130
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 markup:
   highlight:
