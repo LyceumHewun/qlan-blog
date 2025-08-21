@@ -13,3 +13,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     background-color: var(--code-bg) !important; /* support light/dark */
     color: var(--secondary) !important; /* support light/dark */
 }
+
+/* https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma */
+.chroma {
+  background-color: unset;
+}
