@@ -1,33 +1,31 @@
 ---
-title: "Xray 进阶指南：部署 VLESS + Reality + Vision 协议"
+title: " VLESS + Reality + Vision 部署笔记"
 date: 2025-12-30T12:00:00+08:00
 draft: false
 tags: ["Xray", "VLESS", "Reality", "Network", "VPS"]
 categories: ["Backend"]
 author: "谦兰君"
-description: "本文记录了如何从零开始在 Linux 服务器上部署 `VLESS + Reality + Vision` 组合。该方案通过 Reality 技术消除 TLS 指纹特征，并配合 Vision 流控实现高性能、高隐蔽性的访问。"
+description: "本文记录了如何从零开始在 Linux 服务器上部署 `VLESS + Reality + Vision` 组合。该方案通过 Reality 技术消除 TLS 指纹特征，并配合 Vision 流控实现高性能、高隐蔽性的访问"
 ---
 
 ## 1. 准备工作
 
 ### 1.1 选择目标域名
-Reality 需要一个目标域名作为伪装。理想的选择是：国外知名、支持 TLSv1.3、且在国内访问延迟较低的网站。
+Reality 需要一个目标域名作为伪装。理想的选择是：国外知名、支持 TLSv1.3、且在国内访问延迟较低的网站
 * **辅助工具**：[DNSlytics](https://search.dnslytics.com/) (用于查询同 IP 下的优质域名)
 
 ### 1.2 系统网络优化
-在部署前，建议开启 BBRv3 或进行 TCP 优化以提升吞吐量。
+在部署前，建议开启 BBRv3 或进行 TCP 优化以提升吞吐量
 
 **安装 BBRv3：**
 ```bash
 bash <(curl -l -s [https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/refs/heads/main/install.sh](https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/refs/heads/main/install.sh))
-
 ```
 
 **综合 TCP 优化脚本：**
 
 ```bash
 wget -O tcpx.sh "[https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh](https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh)" && chmod +x tcpx.sh && ./tcpx.sh
-
 ```
 
 ---
@@ -40,12 +38,11 @@ wget -O tcpx.sh "[https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh](
 
 ```bash
 bash -c "$(curl -L [https://github.com/XTLS/Xray-install/raw/main/install-release.sh](https://github.com/XTLS/Xray-install/raw/main/install-release.sh))" @ install
-
 ```
 
 ### 2.2 生成必要参数
 
-在配置前，需要生成 UUID 以及 Reality 专用的密钥对。
+在配置前，需要生成 UUID 以及 Reality 专用的密钥对
 
 * **生成 UUID**：
 ```bash
@@ -67,7 +64,7 @@ xray x25519
 
 ## 3. 服务端配置
 
-编辑配置文件：`/usr/local/etc/xray/config.json`。
+编辑配置文件：`/usr/local/etc/xray/config.json`
 
 > **注意**：Reality 必须监听 443 端口以实现完美伪装。
 
