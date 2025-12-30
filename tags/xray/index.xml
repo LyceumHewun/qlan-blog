@@ -15,11 +15,11 @@
     <lastBuildDate>Tue, 30 Dec 2025 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://qlan.cc/tags/xray/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Xray 进阶指南：部署 VLESS &#43; Reality &#43; Vision 协议</title>
+      <title> VLESS &#43; Reality &#43; Vision 部署笔记</title>
       <link>https://qlan.cc/post/vless-reality-vision/</link>
       <pubDate>Tue, 30 Dec 2025 12:00:00 +0800</pubDate>
       <guid>https://qlan.cc/post/vless-reality-vision/</guid>
-      <description>本文记录了如何从零开始在 Linux 服务器上部署 `VLESS &#43; Reality &#43; Vision` 组合。该方案通过 Reality 技术消除 TLS 指纹特征，并配合 Vision 流控实现高性能、高隐蔽性的访问。</description>
+      <description>本文记录了如何从零开始在 Linux 服务器上部署 `VLESS &#43; Reality &#43; Vision` 组合。该方案通过 Reality 技术消除 TLS 指纹特征，并配合 Vision 流控实现高性能、高隐蔽性的访问</description>
     </item>
   </channel>
 </rss>

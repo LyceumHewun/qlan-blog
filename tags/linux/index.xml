@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Backend on 花发故年枝 - qlan&#39;s blog</title>
-    <link>https://qlan.cc/categories/backend/</link>
-    <description>Recent content in Backend on 花发故年枝 - qlan&#39;s blog</description>
+    <title>Linux on 花发故年枝 - qlan&#39;s blog</title>
+    <link>https://qlan.cc/tags/linux/</link>
+    <description>Recent content in Linux on 花发故年枝 - qlan&#39;s blog</description>
     <image>
       <title>花发故年枝 - qlan&#39;s blog</title>
       <url>https://qlan.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -13,20 +13,13 @@
     <language>en</language>
     <copyright>QLAN.CC</copyright>
     <lastBuildDate>Tue, 30 Dec 2025 14:30:00 +0800</lastBuildDate>
-    <atom:link href="https://qlan.cc/categories/backend/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qlan.cc/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hysteria2 部署笔记</title>
       <link>https://qlan.cc/post/hysteria2/</link>
       <pubDate>Tue, 30 Dec 2025 14:30:00 +0800</pubDate>
       <guid>https://qlan.cc/post/hysteria2/</guid>
       <description>Hysteria2 是一款基于 QUIC 的双边加速传输工具。相比于第一代，它完全重写了协议，并引入了更强的抗探测能力和 HTTP 认证模式。本文记录如何利用其“端口跳跃”特性来突破 UDP 限制</description>
-    </item>
-    <item>
-      <title> VLESS &#43; Reality &#43; Vision 部署笔记</title>
-      <link>https://qlan.cc/post/vless-reality-vision/</link>
-      <pubDate>Tue, 30 Dec 2025 12:00:00 +0800</pubDate>
-      <guid>https://qlan.cc/post/vless-reality-vision/</guid>
-      <description>本文记录了如何从零开始在 Linux 服务器上部署 `VLESS &#43; Reality &#43; Vision` 组合。该方案通过 Reality 技术消除 TLS 指纹特征，并配合 Vision 流控实现高性能、高隐蔽性的访问</description>
     </item>
   </channel>
 </rss>
