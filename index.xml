@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
     <copyright>QLAN.CC</copyright>
-    <lastBuildDate>Tue, 30 Dec 2025 14:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Dec 2025 16:00:00 +0800</lastBuildDate>
     <atom:link href="https://qlan.cc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git 笔记</title>
@@ -20,6 +20,13 @@
       <pubDate>Sat, 04 Jun 2022 16:25:38 +0800</pubDate>
       <guid>https://qlan.cc/post/git-note/</guid>
       <description>本文详细介绍了 Git 的全局设置方法，并整理了常用的 Git 命令，包括基础操作、分支管理、远程仓库操作等。</description>
+    </item>
+    <item>
+      <title>Rust 编译优化指南：极致性能与体积缩减</title>
+      <link>https://qlan.cc/post/rust-compilation-optimize/</link>
+      <pubDate>Tue, 30 Dec 2025 16:00:00 +0800</pubDate>
+      <guid>https://qlan.cc/post/rust-compilation-optimize/</guid>
+      <description>在 Rust 项目开发中，通过调整编译配置，可以显著提升运行速度并大幅缩减二进制文件的体积。以下是针对 `release` 模式的操作清单</description>
     </item>
     <item>
       <title>Hysteria2 部署笔记</title>
