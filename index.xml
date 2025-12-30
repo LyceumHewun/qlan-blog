@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
     <copyright>QLAN.CC</copyright>
-    <lastBuildDate>Sat, 04 Jun 2022 16:25:38 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Dec 2025 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://qlan.cc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git 笔记</title>
@@ -20,6 +20,13 @@
       <pubDate>Sat, 04 Jun 2022 16:25:38 +0800</pubDate>
       <guid>https://qlan.cc/post/git-note/</guid>
       <description>本文详细介绍了 Git 的全局设置方法，并整理了常用的 Git 命令，包括基础操作、分支管理、远程仓库操作等。</description>
+    </item>
+    <item>
+      <title>Xray 进阶指南：部署 VLESS &#43; Reality &#43; Vision 协议</title>
+      <link>https://qlan.cc/post/vless-reality-vision/</link>
+      <pubDate>Tue, 30 Dec 2025 12:00:00 +0800</pubDate>
+      <guid>https://qlan.cc/post/vless-reality-vision/</guid>
+      <description>本文记录了如何从零开始在 Linux 服务器上部署 `VLESS &#43; Reality &#43; Vision` 组合。该方案通过 Reality 技术消除 TLS 指纹特征，并配合 Vision 流控实现高性能、高隐蔽性的访问。</description>
     </item>
   </channel>
 </rss>

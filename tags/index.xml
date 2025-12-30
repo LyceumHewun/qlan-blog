@@ -12,8 +12,43 @@
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
     <copyright>QLAN.CC</copyright>
-    <lastBuildDate>Sat, 04 Jun 2022 16:25:38 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Dec 2025 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://qlan.cc/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network</title>
+      <link>https://qlan.cc/tags/network/</link>
+      <pubDate>Tue, 30 Dec 2025 12:00:00 +0800</pubDate>
+      <guid>https://qlan.cc/tags/network/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reality</title>
+      <link>https://qlan.cc/tags/reality/</link>
+      <pubDate>Tue, 30 Dec 2025 12:00:00 +0800</pubDate>
+      <guid>https://qlan.cc/tags/reality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VLESS</title>
+      <link>https://qlan.cc/tags/vless/</link>
+      <pubDate>Tue, 30 Dec 2025 12:00:00 +0800</pubDate>
+      <guid>https://qlan.cc/tags/vless/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VPS</title>
+      <link>https://qlan.cc/tags/vps/</link>
+      <pubDate>Tue, 30 Dec 2025 12:00:00 +0800</pubDate>
+      <guid>https://qlan.cc/tags/vps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xray</title>
+      <link>https://qlan.cc/tags/xray/</link>
+      <pubDate>Tue, 30 Dec 2025 12:00:00 +0800</pubDate>
+      <guid>https://qlan.cc/tags/xray/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Git</title>
       <link>https://qlan.cc/tags/git/</link>
