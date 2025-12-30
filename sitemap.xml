@@ -5,9 +5,6 @@
     <loc>https://qlan.cc/post/git-note/</loc>
     <lastmod>2022-06-04T16:25:38+08:00</lastmod>
   </url><url>
-    <loc>https://qlan.cc/tags/binary-size/</loc>
-    <lastmod>2025-12-30T16:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://qlan.cc/categories/</loc>
     <lastmod>2025-12-30T16:00:00+08:00</lastmod>
   </url><url>
@@ -27,6 +24,9 @@
     <lastmod>2025-12-30T16:00:00+08:00</lastmod>
   </url><url>
     <loc>https://qlan.cc/post/rust-compilation-optimize/</loc>
+    <lastmod>2025-12-30T16:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://qlan.cc/tags/sccache/</loc>
     <lastmod>2025-12-30T16:00:00+08:00</lastmod>
   </url><url>
     <loc>https://qlan.cc/tags/</loc>

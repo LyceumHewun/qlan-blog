@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Binary-Size on 花发故年枝 - qlan&#39;s blog</title>
-    <link>https://qlan.cc/tags/binary-size/</link>
-    <description>Recent content in Binary-Size on 花发故年枝 - qlan&#39;s blog</description>
+    <title>Sccache on 花发故年枝 - qlan&#39;s blog</title>
+    <link>https://qlan.cc/tags/sccache/</link>
+    <description>Recent content in Sccache on 花发故年枝 - qlan&#39;s blog</description>
     <image>
       <title>花发故年枝 - qlan&#39;s blog</title>
       <url>https://qlan.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -13,13 +13,13 @@
     <language>en</language>
     <copyright>QLAN.CC</copyright>
     <lastBuildDate>Tue, 30 Dec 2025 16:00:00 +0800</lastBuildDate>
-    <atom:link href="https://qlan.cc/tags/binary-size/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qlan.cc/tags/sccache/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Rust 编译优化指南：极致性能与体积缩减</title>
+      <title>Rust 编译加速优化方案</title>
       <link>https://qlan.cc/post/rust-compilation-optimize/</link>
       <pubDate>Tue, 30 Dec 2025 16:00:00 +0800</pubDate>
       <guid>https://qlan.cc/post/rust-compilation-optimize/</guid>
-      <description>在 Rust 项目开发中，通过调整编译配置，可以显著提升运行速度并大幅缩减二进制文件的体积。以下是针对 `release` 模式的操作清单</description>
+      <description>默认情况下 Rust 编译器优先保证安全与正确性而非速度。通过调整 `.cargo/config.toml`，可以实现数十倍的构建速度提升</description>
     </item>
   </channel>
 </rss>
