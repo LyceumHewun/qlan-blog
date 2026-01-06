@@ -14,7 +14,7 @@ Hysteria2 提供了一键安装脚本，支持大部分 Linux 发行版
 
 ```bash
 # 执行官方安装脚本
-bash <(curl -fsSL [https://get.hy2.sh/](https://get.hy2.sh/))
+bash <(curl -fsSL https://get.hy2.sh/)
 ```
 
 安装完成后，主程序位于 `/usr/local/bin/hysteria`，配置文件默认位于 `/etc/hysteria/config.yaml`
@@ -23,28 +23,35 @@ bash <(curl -fsSL [https://get.hy2.sh/](https://get.hy2.sh/))
 
 ## 2. 服务端配置 (YAML)
 
-以下配置启用了 **ACME 自动证书申请**、**HTTP 后端认证**以及 **反向代理伪装**
+生成自签证书
+
+```bash
+# 生成证书 {{your_server_ip}} 改成服务器ip
+openssl req -x509 -nodes -newkey rsa:4096 -keyout /etc/hysteria/server.key -out /etc/hysteria/server.crt -days 3650 -subj "/CN=your_server_ip"
+# 修改权限
+chmod 644 /etc/hysteria/server.*
+```
+
+修改配置文件 `/etc/hysteria/config.yaml`
 
 
 ```yaml
-# /etc/hysteria/config.yaml
 listen: :443 
 
-acme:
-  domains:
-    - your.domain.net  # 替换为你的解析好的域名
-  email: your@email.com # 接收证书通知的邮箱
+tls: 
+  cert: /etc/hysteria/server.crt
+  key: /etc/hysteria/server.key
 
 auth:
-  # 使用 HTTP 认证模式，适合对接自己的用户管理系统
+  type: http
   http:
-    url: [http://your.backend.com/auth](http://your.backend.com/auth) 
+    url: http://your.backend.com/auth
     insecure: false 
 
 masquerade: 
   type: proxy
   proxy:
-    url: [https://news.ycombinator.com/](https://news.ycombinator.com/) # 流量探测时伪装的目标
+    url: https://news.ycombinator.com/
     rewriteHost: true
 ```
 

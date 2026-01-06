@@ -19,13 +19,13 @@ Reality 需要一个目标域名作为伪装。理想的选择是：国外知名
 
 **安装 BBRv3：**
 ```bash
-bash <(curl -l -s [https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/refs/heads/main/install.sh](https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/refs/heads/main/install.sh))
+bash <(curl -l -s https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/refs/heads/main/install.sh)
 ```
 
 **综合 TCP 优化脚本：**
 
 ```bash
-wget -O tcpx.sh "[https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh](https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh)" && chmod +x tcpx.sh && ./tcpx.sh
+wget -O tcpx.sh "https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh
 ```
 
 ---
@@ -37,7 +37,7 @@ wget -O tcpx.sh "[https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh](
 使用官方脚本一键安装：
 
 ```bash
-bash -c "$(curl -L [https://github.com/XTLS/Xray-install/raw/main/install-release.sh](https://github.com/XTLS/Xray-install/raw/main/install-release.sh))" @ install
+bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install
 ```
 
 ### 2.2 生成必要参数
