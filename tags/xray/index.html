@@ -4,9 +4,9 @@
 <a href=/tags/xray/index.xml title=RSS aria-label=RSS><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" height="23"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></h1></header><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>VLESS + Reality + Vision 部署笔记</h2></header><div class=entry-content><p>1. 准备工作 1.1 选择目标域名 Reality 需要一个目标域名作为伪装。理想的选择是：国外知名、支持 TLSv1.3、且在国内访问延迟较低的网站
 辅助工具：DNSlytics (用于查询同 IP 下的优质域名) 1.2 系统网络优化 在部署前，建议开启 BBRv3 或进行 TCP 优化以提升吞吐量
 安装 BBRv3：
-1 bash &lt;(curl -l -s [https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/refs/heads/main/install.sh](https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/refs/heads/main/install.sh)) 综合 TCP 优化脚本：
-1 wget -O tcpx.sh "[https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh](https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh)" && chmod +x tcpx.sh && ./tcpx.sh 2. 安装与环境配置 2.1 安装 Xray 核心 使用官方脚本一键安装：
-1 bash -c "$(curl -L [https://github.com/XTLS/Xray-install/raw/main/install-release.sh](https://github.com/XTLS/Xray-install/raw/main/install-release.sh))" @ install 2.2 生成必要参数 在配置前，需要生成 UUID 以及 Reality 专用的密钥对
+1 bash &lt;(curl -l -s https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/refs/heads/main/install.sh) 综合 TCP 优化脚本：
+1 wget -O tcpx.sh "https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh 2. 安装与环境配置 2.1 安装 Xray 核心 使用官方脚本一键安装：
+1 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install 2.2 生成必要参数 在配置前，需要生成 UUID 以及 Reality 专用的密钥对
 生成 UUID： 1 2 xray uuid # 输出示例：2233ebed-68b0-4606-a241-1be5f8ad4668 生成 x25519 密钥对： 1 2 3 xray x25519 # PrivateKey: aIRW_Eh8-n8JEmkHFRxQeHnBipHrxt6OrIbAeUVr12s # PublicKey: YLr6CDT0jCxaxZaDypHnOZzB4D83MWLwR06nSWykzBI 3. 服务端配置 编辑配置文件：/usr/local/etc/xray/config.json
 ...</p></div><footer class=entry-footer><span title='2025-12-30 12:00:00 +0800 +0800'>December 30, 2025</span>&nbsp;·&nbsp;谦兰君</footer><a class=entry-link aria-label="post link to  VLESS + Reality + Vision 部署笔记" href=https://qlan.cc/post/vless-reality-vision/></a></article></main><footer class=footer><span>QLAN.CC</span> ·
 <span>Powered by
