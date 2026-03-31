@@ -70,6 +70,7 @@ xray x25519
 
 ```json
 {
+  "stats": {},
   "log": {
     "loglevel": "error"
   },
